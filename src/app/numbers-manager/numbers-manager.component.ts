@@ -11,6 +11,7 @@ export class NumbersManagerComponent implements OnInit {
   oddNumbers = [1,3,5];
   evenNumbers = [2,4];
   onlyOdd: boolean = false;
+  value: number = 10;
 
   constructor() { }
 
